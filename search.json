@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html#agenda",
+    "href": "index.html#agenda",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Agenda",
+    "text": "Agenda\n\nPersonal introduction\nIntroducing openstatsware\n\nOur software packages\nOur best practice materials\n\nMixed Models for Repeated Measures and {mmrm}\nIngredients for Successful Collaborations"
+  },
+  {
+    "objectID": "index.html#daniel",
+    "href": "index.html#daniel",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Daniel",
+    "text": "Daniel\n\n\n\n\n\nPh.D. in Statistics from University of Zurich, Bayesian Model Selection\nBiostatistician at Roche for 5 years, Data Scientist at Google for 2 years, Statistical Software Engineer at Roche for 4 years\nCo-founder of RCONIS - we just had our 1st birthday!\nMultiple R packages on CRAN and Bioconductor, co-wrote book on Likelihood and Bayesian Inference, chair of openstatsware\nFeel free to connect"
+  },
+  {
+    "objectID": "index.html#rconis",
+    "href": "index.html#rconis",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "RCONIS",
+    "text": "RCONIS"
+  },
+  {
+    "objectID": "index.html#idea",
+    "href": "index.html#idea",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Idea",
+    "text": "Idea\n\nGrow RPACT company to offer a wider range of services\nStrengthen maintainer team for the rpact package\nTeam growth combined with scope growth\nStatistical consulting and engineering services:\nResearch Consulting and Innovative Solutions\nWebsite: rconis.com"
+  },
+  {
+    "objectID": "index.html#openstatsware",
+    "href": "index.html#openstatsware",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "openstatsware",
+    "text": "openstatsware\n\nFormed on 19 August 2022, affiliated with American Statistical Association (ASA) as well as European Federation of Statisticians in the Pharma Industry (EFSPI)\nCross pharma industry collaboration (59 members from 38 organizations)\nHomepage at openstatsware.org\nWe welcome new members to join!"
+  },
+  {
+    "objectID": "index.html#working-group-objectives",
+    "href": "index.html#working-group-objectives",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Working Group Objectives",
+    "text": "Working Group Objectives\n\nPrimary\n\nEngineer R packages that implement important statistical methods\n\nto fill in gaps in the open-source statistical software landscape\nfocusing on what is needed for biopharmaceutical applications\n\n\nSecondary\n\nDevelop and disseminate best practices for engineering high-quality open-source statistical software\n\nBy actively doing the statistical engineering work together, we align on best practices and can communicate these to others"
+  },
+  {
+    "objectID": "index.html#bayesian-mmrm-r-package",
+    "href": "index.html#bayesian-mmrm-r-package",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Bayesian MMRM R Package",
+    "text": "Bayesian MMRM R Package\n\nThe brms.mmrm R package leverages brms to run Bayesian MMRM\n\nbrms is a powerful and versatile package for fitting Bayesian regression models\n\nSupport a simplified interface and align with the best practices\nDocumentation website has a complete function reference and tutorial vignettes\nRigorous validation using simulation-based calibration and comparisons with the frequentist mmrm package on two example datasets"
+  },
+  {
+    "objectID": "index.html#matching-adjusted-indirect-comparison-r-package",
+    "href": "index.html#matching-adjusted-indirect-comparison-r-package",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Matching-adjusted indirect comparison R package",
+    "text": "Matching-adjusted indirect comparison R package\n\nmaicplus is an R package to support analysis and reporting of matching-adjusted indirect comparison (MAIC) for HTA dossiers (docs)\nMotivation:\n\nSponsors are required to submit evidence of relative effectiveness of their treatment comparing to relevant comparators that may not be included in their clinical trial, for health technology assessment (HTA) in different countries\nMAIC is a prevalent and well-accepted method to derive population-adjusted treatment effect in such case for two trials, one of which has Individual patient data and the other has only aggregate data\n\nIn close collaboration with HTA SIG in PSI/EFPSI (a group of HTA SMEs with statistical background, who help to generate pipeline ideas, ensure relevance of developed tools, pilot created tools in real business setting)"
+  },
+  {
+    "objectID": "index.html#bayesian-safety-signal-detection-julia-package",
+    "href": "index.html#bayesian-safety-signal-detection-julia-package",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Bayesian Safety Signal Detection julia package",
+    "text": "Bayesian Safety Signal Detection julia package\n\nSafetySignalDetection.jl implements Bayesian safety signal detection as proposed by Brock et al. (2023) using the Turing.jl framework.\nPlease have a look at the corresponding introduction to learn more\nIf you are interested why Julia is interesting for implementing statistical software, check out R(omeo) and Julia: A Love Story"
+  },
+  {
+    "objectID": "index.html#openstatsguide",
+    "href": "index.html#openstatsguide",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "openstatsguide",
+    "text": "openstatsguide\n\nSmall and concise set of recommendations for package developers\nOpinionated, but aims to be based on experienced majority opinions\nFocus are developers, while users might find complementary “validation” frameworks valuable\nPrimarily for statistical packages (not plotting, data wrangling, etc.)\nGeneric principles which can be used across functional data science languages R, Python, and Julia\nConcrete tools are mentioned as examples"
+  },
+  {
+    "objectID": "index.html#workshop-tour-on-good-software-engineering",
+    "href": "index.html#workshop-tour-on-good-software-engineering",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Workshop Tour on Good Software Engineering",
+    "text": "Workshop Tour on Good Software Engineering\n\n10th February 2023, Basel, CH\n24th March 2023, Shanghai, CN\n20th July 2023, San José, CA, US\n26th September 2023, Rockville, MD, US\n16th and 17th October 2023, Montreal, QC, CA\n18th and 19th April 2024, Zurich, CH\n8th July 2024, Salzburg, AT\n8th April 2025, Tokyo, JP\n12th August 2025, Philadelphia, PA, US\n24th August 2025, Basel, CH\n10th October 2025, Paris, France"
+  },
+  {
+    "objectID": "index.html#what-is-a-mmrm",
+    "href": "index.html#what-is-a-mmrm",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "What is a MMRM?",
+    "text": "What is a MMRM?\n\nMMRM is a popular choice for analyzing longitudinal continuous outcomes in randomized clinical trials\nFor each subject \\(i\\) we observe a vector \\[\nY_i = (y_{i1}, \\dotsc, y_{im_i})^\\top \\in \\mathbb{R}^{m_i}\n\\]\nUse a design matrix \\(X_i \\in \\mathbb{R}^{m_i \\times p}\\)\nUse a corresponding coefficient vector \\(\\beta \\in \\mathbb{R}^{p}\\)\nAssume that the observations are multivariate normal distributed: \\[\nY_i \\sim N(X_i\\beta, \\Sigma_i)\n\\] where the covariance matrix \\(\\Sigma_i \\in \\mathbb{R}^{m_i \\times m_i}\\) is derived by subsetting the overall covariance matrix \\(\\Sigma \\in \\mathbb{R}^{m \\times m}\\) appropriately"
+  },
+  {
+    "objectID": "index.html#covariance-model-and-estimation",
+    "href": "index.html#covariance-model-and-estimation",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Covariance model and Estimation",
+    "text": "Covariance model and Estimation\n\nThe symmetric and positive definite covariance matrix \\(\\Sigma\\) is parametrized by a vector of variance parameters \\(\\theta = (\\theta_1, \\dotsc, \\theta_k)^\\top\\)\nThere are many different choices for how to model the covariance matrix and correspondingly \\(\\theta\\) has different interpretations, e.g.:\n\nUnstructured, Toeplitz, AR1, compound symmetry, ante-dependence, spatial exponential\nGroup specific covariance estimates and weights\n\nEstimation is performed\n\n(sometimes) via maximum likelihood (ML) inference, maximizing the joint log-likelihood of \\((\\beta, \\theta)\\) or\n(usually) via integrating out \\(\\beta\\) from the likelihood and maximizing for \\(\\theta\\) (restricted ML, REML)"
+  },
+  {
+    "objectID": "index.html#existing-r-packages-and-tried-solutions",
+    "href": "index.html#existing-r-packages-and-tried-solutions",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Existing R Packages and Tried Solutions",
+    "text": "Existing R Packages and Tried Solutions\n\nOne challenge is that we need to use “adjusted” degrees of freedom for t- or F-test statistics\n\nbecause of the covariance parameter estimation and data sets are usually unbalanced\nTypical Satterthwaite or Kenward-Roger adjustment methods\n\nInitially thought that the MMRM problem was solved by using lme4 with lmerTest, learned that this approach failed on large data sets (slow, did not converge)\nnlme does not give Satterthwaite adjusted degrees of freedom, has convergence issues, and with emmeans it is only approximate\nNext we tried to extend glmmTMB to calculate Satterthwaite adjusted degrees of freedom, but it did not work"
+  },
+  {
+    "objectID": "index.html#new-idea",
+    "href": "index.html#new-idea",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "New Idea",
+    "text": "New Idea\n\nWe only want to fit a fixed effects model with a structured covariance matrix for each subject\nThe idea is then to use the Template Model Builder (TMB) directly\n\nas it is also underlying glmmTMB\nbut code the exact model we want\n\nWe do this by implementing the log-likelihood in C++ using the TMB provided libraries\nProvide an R solution that\n\nhas fast convergence times\ngenerates estimates closest to (previous) “gold standard” implementation (SAS)"
+  },
+  {
+    "objectID": "index.html#advantages-of-tmb",
+    "href": "index.html#advantages-of-tmb",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Advantages of TMB",
+    "text": "Advantages of TMB\n\nFast C++ framework for defining objective functions (Rcpp would have been alternative interface)\nAutomatic differentiation of the log-likelihood as a function of the variance parameters\nWe get the gradient and Hessian exactly and without additional coding\nSyntactic sugars to allow simple matrix calculations or operations like R\nThis can be used from the R side with the TMB interface and plugged into optimizers"
+  },
+  {
+    "objectID": "index.html#why-its-not-just-another-package",
+    "href": "index.html#why-its-not-just-another-package",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Why it’s not just another package",
+    "text": "Why it’s not just another package\n\nOngoing maintenance and support from the pharmaceutical industry\n\n5 companies being involved in the funding, on track to become standard package\n\nDevelopment using best practices as show case for high quality package\n\nThorough and transparent unit and integration tests to ensure accurate results\nThe integration tests in {mmrm} are set to a tolerance of \\(10^{-3}\\) when compared to SAS outputs.\nUses the testthat framework with covr to communicate the testing coverage"
+  },
+  {
+    "objectID": "index.html#highlighted-features-of-mmrm",
+    "href": "index.html#highlighted-features-of-mmrm",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Highlighted Features of mmrm",
+    "text": "Highlighted Features of mmrm\n\nHypothesis Testing:\n\nemmeans interface for least square means\nSatterthwaite and Kenward-Roger adjustments\nRobust sandwich estimator for covariance\n\nIntegrations and extentions\n\ntidymodels builtin parsnip engine and recipes for streamlined model fitting workflows\nteal, tern, rtables integration for post processing and reporting\nSupport conditional mean prediction and simulation\nAlso used in rbmi for conditional mean imputation!"
+  },
+  {
+    "objectID": "index.html#computational-efficiency",
+    "href": "index.html#computational-efficiency",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Computational Efficiency",
+    "text": "Computational Efficiency\nmmrm not only supports multiple covariance structure, it also has good efficiency (due to fast implementations in C++)\n\nComparison of convergence times (ms) for example (source)\n\n\nImplementation\nMedian\nFirst Quartile\nThird Quartile\n\n\n\n\nmmrm\n56.15\n55.76\n56.30\n\n\nPROC GLIMMIX\n100.00\n100.00\n100.00\n\n\nlmer\n247.02\n245.25\n257.46\n\n\ngls\n687.63\n683.50\n692.45\n\n\nglmmTMB\n715.90\n708.70\n721.57"
+  },
+  {
+    "objectID": "index.html#differences-with-sas",
+    "href": "index.html#differences-with-sas",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Differences with SAS",
+    "text": "Differences with SAS\n{mmrm} has small difference from SAS\n\n\n\nMarginal mean treatment effects for each visit (source)"
+  },
+  {
+    "objectID": "index.html#impact-of-mmrm",
+    "href": "index.html#impact-of-mmrm",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Impact of mmrm",
+    "text": "Impact of mmrm\n\nCRAN downloads: 3855 per month, almost 100k in total so far (7th July 2025)\n\nhttps://cran.r-project.org/web/packages/mmrm/\n\nGitHub repository: 142 stars (7th July 2025)\n\nhttps://github.com/openpharma/mmrm\n\nQuite a lot of questions on StackOverflow\nMost important features have been implemented by now … but still room for new features:\n\nadditional random effects\nnested covariance structures\nKenward-Roger version 2"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Getting started",
+    "text": "Getting started\n\nmmrm is on CRAN - use this as a starting point:\n\n\n\ninstall.packages(\"mmrm\")\nlibrary(mmrm)\nfit &lt;- mmrm(\n    formula = FEV1 ~ RACE + SEX + ARMCD * AVISIT + us(AVISIT | USUBJID),\n    data = fev_data\n)\nsummary(fit)\nlibrary(emmeans)\nemmeans(fit, ~ ARMCD | AVISIT)\n\n\nVisit openpharma.github.io/mmrm for detailed docs including vignettes\n\nIn particular the comparison vignette\n\nConsider tern.mmrm for high-level clinical reporting interface, incl. standard tables and graphs"
+  },
+  {
+    "objectID": "index.html#human-factors",
+    "href": "index.html#human-factors",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Human factors",
+    "text": "Human factors\n\nMutual interest and trust\nPrerequisite is getting to know each other\n\nAlthough mostly just online, biweekly calls help a lot with this\n\nReciprocity mindset\n\n“Reciprocity means that in response to friendly actions, people are frequently much nicer and much more cooperative than predicted by the self-interest model”\nPersonal experience: If you first give away something, more will come back to you."
+  },
+  {
+    "objectID": "index.html#development-process",
+    "href": "index.html#development-process",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Development process",
+    "text": "Development process\n\nImportant to go public as soon as possible\n\ndon’t wait for the product to be finished\nyou never know who else might be interested/could help\n\nVersion control with git\n\ncornerstone of effective collaboration\n\nBuilding software together works better than alone\n\nDifferent perspectives in discussions and code review help to optimize the user interface and thus experience"
+  },
+  {
+    "objectID": "index.html#coding-standards",
+    "href": "index.html#coding-standards",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Coding standards",
+    "text": "Coding standards\n\nConsistent and readable code style simplifies joint work\nWritten (!) contribution guidelines help\nLowering the entry hurdle using developer calls is important"
+  },
+  {
+    "objectID": "index.html#robust-test-suite",
+    "href": "index.html#robust-test-suite",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Robust test suite",
+    "text": "Robust test suite\n\nUnit and integration tests are essential for preventing regression and assuring quality\nEspecially with compiled code critical to see if package works correctly\nUse continuous integration during development to make sure nothing breaks along the way"
+  },
+  {
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Documentation",
+    "text": "Documentation\n\nLots of work but extremely important\n\nstart with writing up the methods details\nthink about the code structure first in a “design doc”\nonly then put the code in the package\n\nNeeds to be kept up-to-date\nNeed to have examples & vignettes\n\nTesting alone is not sufficient\nBuilds trust with users\nReference for developers over time"
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nThanks to all other authors of {mmrm}:\n\n\n\nBrian Matthew Lang (Merck)\nChristian Stock (Boehringer)\nDan James (AstraZeneca)\nDaniel Leibovitz (Roche)\nDaniel Sjoberg (Roche)\nDoug Kelkhoff (Roche)\n\n\n\nJulia Dedic (Roche)\nJonathan Sidi (Sanofi)\nKevin Kunzmann (Boehringer)\nLiming Li (Roche)\nNikolas I. Krieger (Experis)\nYa Wang (Gilead)"
+  },
+  {
+    "objectID": "index.html#acknowledgments-1",
+    "href": "index.html#acknowledgments-1",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nThanks for discussions and contributions from:\n\nBen Bolker (McMaster University)\nDavide Garolini (Roche)\nCraig Gower-Page (Roche)\nDinakar Kulkarni (Roche)\nGonzalo Duran Pacheco (Roche)\nLukas A. Widmer (Novartis)\nMembers of openstatsware"
+  },
+  {
+    "objectID": "index.html#thank-you-questions",
+    "href": "index.html#thank-you-questions",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Thank you! Questions?",
+    "text": "Thank you! Questions?"
+  }
+]
