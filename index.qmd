@@ -1,6 +1,6 @@
 ---
 title: "`{mmrm}` and more from `openstatsware`"
-subtitle: "Merck R&D, August 2024"
+subtitle: "Merck & Co., Inc., August 2024"
 author: "Daniel Sabanés Bové"
 institute: RCONIS
 license: 'CC BY-SA'
@@ -336,7 +336,7 @@ Thanks to all other authors of `{mmrm}`:
 ::: nonincremental
 ::: columns
 ::: {.column width="50%"}
--   Brian Matthew Lang (Merck)
+-   Brian Matthew Lang (Merck & Co., Inc.)
 -   Christian Stock (Boehringer)
 -   Dan James (AstraZeneca)
 -   Daniel Leibovitz (Roche)
