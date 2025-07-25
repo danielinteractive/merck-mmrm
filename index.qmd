@@ -9,7 +9,7 @@ format:
     incremental: false
     logo: https://github.com/openstatsware/website/raw/main/sticker/openstatsware-hex-1200.png
     slide-number: c/t
-    fontsize: 24px
+    fontsize: 26px
     footer: '`{mmrm}` and more from `openstatsware` | [License](http://creativecommons.org/licenses/by-sa/4.0/ "License: CC BY-SA 4.0")'
 title-slide-attributes: 
   data-background-image: https://github.com/openpharma/mmrm/raw/main/man/figures/logo.png
@@ -117,16 +117,12 @@ unique_orgs <- members |>
 
 ## openstatsguide
 
-::: {.incremental}
-
 - Small and concise set of recommendations for package developers
 - Opinionated, but aims to be based on experienced majority opinions
 - Focus are developers, while users might find complementary "validation" frameworks valuable
 - Primarily for statistical packages (not plotting, data wrangling, etc.)
 - Generic principles which can be used across functional data science languages R, Python, and Julia
 - Concrete tools are mentioned as examples 
-
-:::
 
 ## {background-iframe="https://openstatsware.org/guide.html"}
 
@@ -140,7 +136,7 @@ unique_orgs <- members |>
 1. [18th and 19th April 2024, Zurich, CH](https://rconis.github.io/workshop-r-swe-zrh/)
 1. [8th July 2024, Salzburg, AT](https://rconis.github.io/user2024-tutorial-gswep/)
 1. [8th April 2025, Tokyo, JP](https://www.linkedin.com/posts/yuichi-nakajima-8984759a_r-package-development-workshop-by-daniel-activity-7305102975851511810-QPl_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAeLiYUB2lCTxf2k2-ROB6XktxT7lyQYIaQ)
-1. 12th August 2025, Philadelphia, PA, US
+1. [12th August 2025, Philadelphia, PA, US](https://isbiostat.org/short-courses/#CS3)
 1. [24th August 2025, Basel, CH](https://openstatsware.github.io/shortcourse-iscb2025/)
 1. [10th October 2025, Paris, France](https://rconis.github.io/SnB2025-shortcourse/)
 
@@ -245,14 +241,14 @@ has different interpretations, e.g.:
 
 `{mmrm}` has small difference from SAS
 
-![Marginal mean treatment effects for each visit ([source](https://openpharma.github.io/mmrm/v0.3.12/articles/mmrm_review_methods.html#fev-data-2))](mmrm-review-treatment-fev-1.png){height=100%}
+![Marginal mean treatment effects for each visit ([source](https://openpharma.github.io/mmrm/v0.3.12/articles/mmrm_review_methods.html#fev-data-2))](resources/mmrm-review-treatment-fev-1.png){height=100%}
 
 ## Impact of `mmrm`
 
-- CRAN downloads: 3855 per month, almost 100k in total so far (7th July 2025)
+- CRAN downloads: 3689 per month, over 100k in total so far (25th July 2025)
   - [https://cran.r-project.org/web/packages/mmrm/](https://cran.r-project.org/web/packages/mmrm/) 
 
-- GitHub repository: 142 stars (7th July 2025)
+- GitHub repository: 143 stars (25th July 2025)
   - [https://github.com/openpharma/mmrm](https://github.com/openpharma/mmrm) 
 
 - Quite a lot of questions on StackOverflow
