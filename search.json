@@ -144,7 +144,7 @@
     "href": "index.html#impact-of-mmrm",
     "title": "{mmrm} and more from openstatsware",
     "section": "Impact of mmrm",
-    "text": "Impact of mmrm\n\nCRAN downloads: 3855 per month, almost 100k in total so far (7th July 2025)\n\nhttps://cran.r-project.org/web/packages/mmrm/\n\nGitHub repository: 142 stars (7th July 2025)\n\nhttps://github.com/openpharma/mmrm\n\nQuite a lot of questions on StackOverflow\nMost important features have been implemented by now … but still room for new features:\n\nadditional random effects\nnested covariance structures\nKenward-Roger version 2"
+    "text": "Impact of mmrm\n\nCRAN downloads: 3689 per month, over 100k in total so far (25th July 2025)\n\nhttps://cran.r-project.org/web/packages/mmrm/\n\nGitHub repository: 143 stars (25th July 2025)\n\nhttps://github.com/openpharma/mmrm\n\nQuite a lot of questions on StackOverflow\nMost important features have been implemented by now … but still room for new features:\n\nadditional random effects\nnested covariance structures\nKenward-Roger version 2"
   },
   {
     "objectID": "index.html#getting-started",
