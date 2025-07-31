@@ -280,6 +280,15 @@ emmeans(fit, ~ ARMCD | AVISIT)
     - In particular the [comparison vignette](https://openpharma.github.io/mmrm/main/articles/mmrm_review_methods.html)
 -   Consider [tern.mmrm](https://insightsengineering.github.io/tern.mmrm/main/) for high-level clinical reporting interface, incl. standard tables and graphs
 
+## Going beyond the MAR assumption
+
+- Analyzing a primary outcome with MMRM will likely be critized by regulators regarding the required missing at random (MAR) assumption
+- More complex methods have been developed to address this, such as reference-based multiple imputation (RBMI) or delta adjustment
+- The [`rbmi` package](https://insightsengineering.github.io/rbmi) implements these methods, and internally uses `mmrm`:
+  - Bayesian inference (with Stan implementation) 
+  - approximate Bayesian multiple imputation combined with Rubin's rules for inference, and 
+  - frequentist conditional mean imputation combined with (jackknife or bootstrap) resampling.
+
 # Ingredients for successful and sustainable collaboration
 
 ## Human factors
@@ -332,7 +341,7 @@ Thanks to all other authors of `{mmrm}`:
 ::: nonincremental
 ::: columns
 ::: {.column width="50%"}
--   Brian Matthew Lang (Merck & Co., Inc.)
+-   Brian Matthew Lang (MSD)
 -   Christian Stock (Boehringer)
 -   Dan James (AstraZeneca)
 -   Daniel Leibovitz (Roche)
