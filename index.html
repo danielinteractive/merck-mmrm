@@ -562,6 +562,19 @@ Y_i \sim N(X_i\beta, \Sigma_i)
 <li>Consider <a href="https://insightsengineering.github.io/tern.mmrm/main/">tern.mmrm</a> for high-level clinical reporting interface, incl.&nbsp;standard tables and graphs</li>
 </ul>
 </div>
+</section>
+<section id="going-beyond-the-mar-assumption" class="slide level2">
+<h2>Going beyond the MAR assumption</h2>
+<ul>
+<li>Analyzing a primary outcome with MMRM will likely be critized by regulators regarding the required missing at random (MAR) assumption</li>
+<li>More complex methods have been developed to address this, such as reference-based multiple imputation (RBMI) or delta adjustment</li>
+<li>The <a href="https://insightsengineering.github.io/rbmi"><code>rbmi</code> package</a> implements these methods, and internally uses <code>mmrm</code>:
+<ul>
+<li>Bayesian inference (with Stan implementation)</li>
+<li>approximate Bayesian multiple imputation combined with Rubin’s rules for inference, and</li>
+<li>frequentist conditional mean imputation combined with (jackknife or bootstrap) resampling.</li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="ingredients-for-successful-and-sustainable-collaboration" class="title-slide slide level1 center">
@@ -641,7 +654,7 @@ Y_i \sim N(X_i\beta, \Sigma_i)
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Brian Matthew Lang (Merck &amp; Co., Inc.)</li>
+<li>Brian Matthew Lang (MSD)</li>
 <li>Christian Stock (Boehringer)</li>
 <li>Dan James (AstraZeneca)</li>
 <li>Daniel Leibovitz (Roche)</li>

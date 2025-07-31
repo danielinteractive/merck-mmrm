@@ -154,6 +154,13 @@
     "text": "Getting started\n\nmmrm is on CRAN - use this as a starting point:\n\n\n\ninstall.packages(\"mmrm\")\nlibrary(mmrm)\nfit &lt;- mmrm(\n    formula = FEV1 ~ RACE + SEX + ARMCD * AVISIT + us(AVISIT | USUBJID),\n    data = fev_data\n)\nsummary(fit)\nlibrary(emmeans)\nemmeans(fit, ~ ARMCD | AVISIT)\n\n\nVisit openpharma.github.io/mmrm for detailed docs including vignettes\n\nIn particular the comparison vignette\n\nConsider tern.mmrm for high-level clinical reporting interface, incl. standard tables and graphs"
   },
   {
+    "objectID": "index.html#going-beyond-the-mar-assumption",
+    "href": "index.html#going-beyond-the-mar-assumption",
+    "title": "{mmrm} and more from openstatsware",
+    "section": "Going beyond the MAR assumption",
+    "text": "Going beyond the MAR assumption\n\nAnalyzing a primary outcome with MMRM will likely be critized by regulators regarding the required missing at random (MAR) assumption\nMore complex methods have been developed to address this, such as reference-based multiple imputation (RBMI) or delta adjustment\nThe rbmi package implements these methods, and internally uses mmrm:\n\nBayesian inference (with Stan implementation)\napproximate Bayesian multiple imputation combined with Rubin’s rules for inference, and\nfrequentist conditional mean imputation combined with (jackknife or bootstrap) resampling."
+  },
+  {
     "objectID": "index.html#human-factors",
     "href": "index.html#human-factors",
     "title": "{mmrm} and more from openstatsware",
@@ -193,7 +200,7 @@
     "href": "index.html#acknowledgments",
     "title": "{mmrm} and more from openstatsware",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\nThanks to all other authors of {mmrm}:\n\n\n\nBrian Matthew Lang (Merck & Co., Inc.)\nChristian Stock (Boehringer)\nDan James (AstraZeneca)\nDaniel Leibovitz (Roche)\nDaniel Sjoberg (Roche)\nDoug Kelkhoff (Roche)\n\n\n\nJulia Dedic (Roche)\nJonathan Sidi (Sanofi)\nKevin Kunzmann (Boehringer)\nLiming Li (Roche)\nNikolas I. Krieger (Experis)\nYa Wang (Gilead)"
+    "text": "Acknowledgments\nThanks to all other authors of {mmrm}:\n\n\n\nBrian Matthew Lang (MSD)\nChristian Stock (Boehringer)\nDan James (AstraZeneca)\nDaniel Leibovitz (Roche)\nDaniel Sjoberg (Roche)\nDoug Kelkhoff (Roche)\n\n\n\nJulia Dedic (Roche)\nJonathan Sidi (Sanofi)\nKevin Kunzmann (Boehringer)\nLiming Li (Roche)\nNikolas I. Krieger (Experis)\nYa Wang (Gilead)"
   },
   {
     "objectID": "index.html#acknowledgments-1",
